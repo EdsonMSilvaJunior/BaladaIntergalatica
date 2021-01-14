@@ -1,0 +1,2 @@
+C:\Users\Edson\source\repos\BaladaIntergalatica\Balada.Infrastructure.IoC\obj\Debug\Balada.Infrastructure.IoC.csprojAssemblyReference.cache
+C:\Users\Edson\source\repos\BaladaIntergalatica\Balada.Infrastructure.IoC\obj\Debug\Balada.Infrastructure.IoC.csproj.CoreCompileInputs.cache

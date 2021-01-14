@@ -1,0 +1,7 @@
+C:\Users\Edson\source\repos\BaladaIntergalatica\Balada.Web.Mvc\obj\Debug\netcoreapp3.1\Balada.Web.Mvc.csprojAssemblyReference.cache
+C:\Users\Edson\source\repos\BaladaIntergalatica\Balada.Web.Mvc\obj\Debug\netcoreapp3.1\Balada.Web.Mvc.AssemblyInfoInputs.cache
+C:\Users\Edson\source\repos\BaladaIntergalatica\Balada.Web.Mvc\obj\Debug\netcoreapp3.1\Balada.Web.Mvc.AssemblyInfo.cs
+C:\Users\Edson\source\repos\BaladaIntergalatica\Balada.Web.Mvc\obj\Debug\netcoreapp3.1\Balada.Web.Mvc.csproj.CoreCompileInputs.cache
+C:\Users\Edson\source\repos\BaladaIntergalatica\Balada.Web.Mvc\obj\Debug\netcoreapp3.1\Balada.Web.Mvc.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Edson\source\repos\BaladaIntergalatica\Balada.Web.Mvc\obj\Debug\netcoreapp3.1\Balada.Web.Mvc.RazorAssemblyInfo.cache
+C:\Users\Edson\source\repos\BaladaIntergalatica\Balada.Web.Mvc\obj\Debug\netcoreapp3.1\Balada.Web.Mvc.RazorAssemblyInfo.cs

@@ -1,0 +1,2 @@
+C:\Users\Edson\source\repos\BaladaIntergalatica\Balada.Domain\obj\Debug\Balada.Domain.csprojAssemblyReference.cache
+C:\Users\Edson\source\repos\BaladaIntergalatica\Balada.Domain\obj\Debug\Balada.Domain.csproj.CoreCompileInputs.cache

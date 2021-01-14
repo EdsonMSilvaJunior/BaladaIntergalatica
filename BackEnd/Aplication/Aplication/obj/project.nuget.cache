@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/P9jj2uXMm2seA4tzkyp9t8o5wTE7oJJNCX1EhK7IkHutW4m6ApgueRpJ2qQJKVlCBrHCwJy+1NQmVNEJIkutQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Edson\\source\\repos\\Aplication\\Aplication\\Aplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Edson\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Edson\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
