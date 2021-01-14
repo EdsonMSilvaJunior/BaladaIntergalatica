@@ -37,7 +37,7 @@ namespace Balada.Test.Infrastructure.Services
             await _alienService.CreateAsync(alien);
             //assert
             await _alienRepository.Received(1).CreateAsync(Arg.Is<Alien>(x =>
-                x.Name == "Dagoberto" &&
+                x.Name == alien.Name &&
                 x.DateBirth == alien.DateBirth &&
                 x.Objects == alien.Objects
             ));
