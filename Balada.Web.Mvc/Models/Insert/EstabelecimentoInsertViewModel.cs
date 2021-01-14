@@ -5,7 +5,7 @@ namespace Balada.Web.Mvc.Models.Insert
     public class EstabelecimentoInsertViewModel
     {
         public string Name { get; set; }
-        public IList<string> RestrictedObjects { get; set; }
-        public IList<string> BannedList { get; set; }
+        public string RestrictedObjects { get; set; }
+        public string BannedList { get; set; }
     }
 }

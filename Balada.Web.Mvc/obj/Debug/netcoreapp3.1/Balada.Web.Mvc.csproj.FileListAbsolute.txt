@@ -161,7 +161,6 @@ C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Web.Mvc\obj\Debug\netcoreapp3.
 C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Web.Mvc\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Web.Mvc\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
 C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Web.Mvc\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
-C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Web.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Estabelecimento\Create.cshtml.g.cs
 C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Web.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Web.Mvc\obj\Debug\netcoreapp3.1\Balada.Web.Mvc.RazorAssemblyInfo.cache
 C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Web.Mvc\obj\Debug\netcoreapp3.1\Balada.Web.Mvc.RazorAssemblyInfo.cs
@@ -176,3 +175,5 @@ C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Web.Mvc\obj\Debug\netcoreapp3.
 C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Web.Mvc\obj\Debug\netcoreapp3.1\Balada.Web.Mvc.pdb
 C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Web.Mvc\obj\Debug\netcoreapp3.1\Balada.Web.Mvc.genruntimeconfig.cache
 C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Web.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Alien\Create.cshtml.g.cs
+C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Web.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Estabelecimento\Create.cshtml.g.cs
+C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Web.Mvc\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs

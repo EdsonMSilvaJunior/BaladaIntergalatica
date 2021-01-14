@@ -1,32 +1,47 @@
 ﻿@model Balada.Web.Mvc.Models.Insert.EstabelecimentoInsertViewModel
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Estabelecimento";
 }
 
-<h1>Create</h1>
+<h1 style="text-align:center">Estabelecimentos</h1>
 
-<h4>EstabelecimentoInsertViewModel</h4>
 <hr />
-<div class="row">
+<div style="text-align:center" class="row">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" Placeholder="nome" class="form-control" />
+                <input asp-for="Name" Placeholder="Nome" class="form-control" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
+            <div class="form-group">
+                <label asp-for="RestrictedObjects" class="control-label"></label>
+                <input asp-for="RestrictedObjects" Placeholder="Objeto Restrito" class="form-control" />
+                <span asp-validation-for="RestrictedObjects" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BannedList" class="control-label"></label>
+                <input asp-for="BannedList" Placeholder="Banidos" class="form-control" />
+                <span asp-validation-for="BannedList" class="text-danger"></span>
+            </div><br />
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
     </div>
+    <div>
+        <button onclick="chamaHome()">Home</button>
+        <script>
+            function chamaHome() {
+                window.location = "https://localhost:44378/";
+            }
+        </script>
+    </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

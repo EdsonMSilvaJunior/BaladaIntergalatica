@@ -31,23 +31,23 @@ namespace Balada.Infrastructure.IoC.Service
 
             if (estabelecimento.BannedList.Contains(checkDb.AlienId))
             {
-                return;
+                throw new Exception("Alien banido.");
             }
             if (checkDb != null && checkDb.CheckOut == null)
             {
                 estabelecimento.BannedList.Add(alien.Id);
                 await _estabelecimentoRepository.UpdateAsync(estabelecimento);
-                return;
+                throw new Exception("Alien banido.");
             }
             if ((DateTime.Now.Year - alien.DateBirth.Year) < 250)
             {
-                return;
+                throw new Exception("Alien menor de idade.");
             }
             foreach (var objectAlien in alien.Objects)
             {
                 if (estabelecimento.RestrictedObjects.Contains(objectAlien))
                 {
-                    return;
+                    throw new Exception("Objeto não permitido.");
                 }
             }
             await _checkRepository.CreateAsync(check);
@@ -77,13 +77,8 @@ namespace Balada.Infrastructure.IoC.Service
 
             if ((DateTime.Now.Minute - check.CheckIn.Minute) < 1)
             {
-                return;
+                throw new Exception("Tempo de checkIn menor que 1 minuto."); ;
             }
-            if (checkDb != null && checkDb.CheckOut != null)
-            {
-                return;
-            }
-
             check.Update(DateTime.Now);
             await _checkRepository.UpdateAsync(check);
         }
