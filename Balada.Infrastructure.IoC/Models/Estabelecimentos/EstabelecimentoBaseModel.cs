@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Balada.Infrastructure.IoC.Models.Estabelecimentos
+﻿namespace Balada.Infrastructure.IoC.Models.Estabelecimentos
 {
-    class EstabelecimentoBaseModel
+    public class EstabelecimentoBaseModel
     {
+        public string Name { get; set; }
     }
 }

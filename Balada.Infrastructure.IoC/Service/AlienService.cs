@@ -5,9 +5,7 @@ using Balada.Domain.Validators;
 using Balada.Infrastructure.IoC.Interfaces;
 using Balada.Infrastructure.IoC.Models.Aliens;
 using FluentValidation;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace Balada.Infrastructure.IoC.Service
@@ -19,7 +17,6 @@ namespace Balada.Infrastructure.IoC.Service
         {
             _alienRepository = alienRepository;
         }
-        
 
         public async Task<int> CreateAsync(AlienRequestModel entity)
         {
@@ -31,6 +28,10 @@ namespace Balada.Infrastructure.IoC.Service
             var alien = mapper.Map<Alien>(entity);
             var validator = new AlienValidator();
             validator.ValidateAndThrow(alien);
+            foreach (var alienObject in entity.Objects)
+            {
+                alien.AddObjtects(alienObject);
+            }
             await _alienRepository.CreateAsync(alien);
             return alien.Id;
         }
@@ -67,10 +68,10 @@ namespace Balada.Infrastructure.IoC.Service
             return mapper.Map<AlienResponseModel>(alien);
         }
 
-        public async Task UpdateAsync(int id, AlienUpdateModel entity)
+        public async Task UpdateAsync(int id, AlienUpdateModel alienUpdateModel)
         {
             var alien = await _alienRepository.GetByIdAsync(id);
-            alien.Update(entity.Name, entity.DateBirth);
+            alien.Update(alienUpdateModel.Name, alienUpdateModel.DateBirth);
             await _alienRepository.UpdateAsync(alien);
         }
     }

@@ -1,2 +1,17 @@
 C:\Users\Edson\source\repos\BaladaIntergalatica\Balada.Infrastructure.IoC\obj\Debug\Balada.Infrastructure.IoC.csprojAssemblyReference.cache
 C:\Users\Edson\source\repos\BaladaIntergalatica\Balada.Infrastructure.IoC\obj\Debug\Balada.Infrastructure.IoC.csproj.CoreCompileInputs.cache
+C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Infrastructure.IoC\bin\Debug\Balada.Infrastructure.IoC.dll.config
+C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Infrastructure.IoC\bin\Debug\Balada.Infrastructure.IoC.dll
+C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Infrastructure.IoC\bin\Debug\Balada.Infrastructure.IoC.pdb
+C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Infrastructure.IoC\bin\Debug\AutoMapper.dll
+C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Infrastructure.IoC\bin\Debug\Balada.Domain.dll
+C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Infrastructure.IoC\bin\Debug\FluentValidation.dll
+C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Infrastructure.IoC\bin\Debug\Balada.Domain.pdb
+C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Infrastructure.IoC\bin\Debug\Balada.Domain.dll.config
+C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Infrastructure.IoC\bin\Debug\AutoMapper.xml
+C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Infrastructure.IoC\bin\Debug\FluentValidation.xml
+C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Infrastructure.IoC\obj\Debug\Balada.Infrastructure.IoC.csprojAssemblyReference.cache
+C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Infrastructure.IoC\obj\Debug\Balada.Infrastructure.IoC.csproj.CoreCompileInputs.cache
+C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Infrastructure.IoC\obj\Debug\Balada.Infrastructure.IoC.csproj.CopyComplete
+C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Infrastructure.IoC\obj\Debug\Balada.Infrastructure.IoC.dll
+C:\Users\Edson\Desktop\BaladaIntergalatica\Balada.Infrastructure.IoC\obj\Debug\Balada.Infrastructure.IoC.pdb

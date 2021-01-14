@@ -9,10 +9,11 @@ namespace Balada.Domain.Entities
         public DateTime DateBirth { get; protected set; }
         public IList<string> Objects { get; protected set; }
 
-        public Alien(string name, DateTime datebirth)
+        public Alien(string name, DateTime datebirth,IList<string> objects)
         {
             Name = name;
             DateBirth = datebirth;
+            Objects = objects;
         }
         public void AddObjtects(string nameobject)
         {

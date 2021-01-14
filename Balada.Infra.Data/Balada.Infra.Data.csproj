@@ -161,6 +161,7 @@
   <ItemGroup>
     <Compile Include="Context\AppDbContext.cs" />
     <Compile Include="Mappings\AlienMapping.cs" />
+    <Compile Include="Mappings\CheckMapping.cs" />
     <Compile Include="Mappings\EstabelecimentoMapping.cs" />
     <Compile Include="Mappings\EntityTypeConfiguration.cs" />
     <Compile Include="Migrations\20210113182301_InitialMigration.cs" />
@@ -171,9 +172,14 @@
     <Compile Include="Migrations\20210113201522_Add_List_Banned_in_to_Estabelecimento.designer.cs">
       <DependentUpon>20210113201522_Add_List_Banned_in_to_Estabelecimento.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20210114091150_AddCheckTable.cs" />
+    <Compile Include="Migrations\20210114091150_AddCheckTable.designer.cs">
+      <DependentUpon>20210114091150_AddCheckTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AppDbContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\AlienRepository.cs" />
+    <Compile Include="Repositories\CheckRepository.cs" />
     <Compile Include="Repositories\EstabelecimentoRepository.cs" />
     <Compile Include="Repositories\GenericRepository.cs" />
   </ItemGroup>

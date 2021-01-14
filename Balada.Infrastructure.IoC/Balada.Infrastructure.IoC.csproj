@@ -48,16 +48,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interfaces\IAlienService.cs" />
+    <Compile Include="Interfaces\ICheckService.cs" />
     <Compile Include="Interfaces\IEstabelecimentoService.cs" />
     <Compile Include="Models\Aliens\AlienBaseModel.cs" />
     <Compile Include="Models\Aliens\AlienRequestModel.cs" />
     <Compile Include="Models\Aliens\AlienResponseModel.cs" />
     <Compile Include="Models\Aliens\AlienUpdateModel.cs" />
+    <Compile Include="Models\Check\CheckBaseModel.cs" />
+    <Compile Include="Models\Check\CheckRequestModel.cs" />
+    <Compile Include="Models\Check\CheckResponseModel.cs" />
+    <Compile Include="Models\Check\CheckUpdateModel.cs" />
     <Compile Include="Models\Estabelecimentos\EstabelecimentoBaseModel.cs" />
     <Compile Include="Models\Estabelecimentos\EstabelecimentoRequestModel.cs" />
     <Compile Include="Models\Estabelecimentos\EstabelecimentoResponseModel.cs" />
+    <Compile Include="Models\Estabelecimentos\EstabelecimentoUpdateModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\AlienService.cs" />
+    <Compile Include="Service\CheckService.cs" />
     <Compile Include="Service\EstabelecimentoService.cs" />
   </ItemGroup>
   <ItemGroup>

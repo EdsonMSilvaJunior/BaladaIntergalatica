@@ -39,6 +39,9 @@ namespace Balada.Web.Mvc
             services.AddTransient<IEstabelecimentoService, EstabelecimentoService>();
             services.AddTransient<IEstabelecimentoRepository, EstabelecimentoRepository>();
 
+            services.AddTransient<ICheckService, CheckService>();
+            services.AddTransient<ICheckRepository, CheckRepository>();
+
             services.AddMvc();
 
         }
