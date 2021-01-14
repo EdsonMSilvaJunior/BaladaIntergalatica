@@ -1,4 +1,3 @@
-using Balada.Domain.Entities;
 using Balada.Domain.Interfaces;
 using Balada.Infra.Data.Context;
 using Balada.Infra.Data.Repositories;
