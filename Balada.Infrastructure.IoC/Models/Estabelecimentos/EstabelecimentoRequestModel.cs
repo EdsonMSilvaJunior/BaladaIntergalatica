@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Balada.Infrastructure.IoC.Models.Estabelecimentos
 {
-    class EstabelecimentoRequestModel
+    public class EstabelecimentoRequestModel : EstabelecimentoBaseModel
     {
+        public IList<string> RestrictedObjects { get;  set; }
     }
 }

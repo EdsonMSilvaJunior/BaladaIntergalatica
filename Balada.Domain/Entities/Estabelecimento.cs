@@ -6,7 +6,7 @@ namespace Balada.Domain.Entities
     {
         public string Name { get; protected set; }
         public IList<string> RestrictedObjects { get; protected set; }
-        public IList<string> BannedList { get; protected set; }
+        public IList<int> BannedList { get; protected set; }
 
         public Estabelecimento(string name)
         {
@@ -18,10 +18,21 @@ namespace Balada.Domain.Entities
             RestrictedObjects.Add(nameRestrictedObjects);
         }
 
+        public void AddBannedList(int idBannedList)
+        {
+            BannedList.Add(idBannedList);
+        }
+
         protected Estabelecimento()
         {
             RestrictedObjects = new List<string>();
-            BannedList = new List<string>();
+            BannedList = new List<int>();
+        }
+
+        public void Update(string name)
+        {
+            Name = name;
+            
         }
     }
 }

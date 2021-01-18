@@ -3,7 +3,7 @@ using FluentValidation;
 
 namespace Balada.Domain.Validators
 {
-    class EstabelecimentoValidator : AbstractValidator<Estabelecimento>
+    public class EstabelecimentoValidator : AbstractValidator<Estabelecimento>
     {
         public EstabelecimentoValidator()
         {
